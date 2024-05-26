@@ -1,7 +1,6 @@
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
-
 import 'package:form_bloc_web/constants/style.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -155,7 +154,7 @@ class _AppDrawerState extends State<AppDrawer> with RouteAware {
       alignment: Alignment.centerLeft,
       child: Text(
         'Examples',
-        style: Theme.of(context).textTheme.headline6,
+        style: Theme.of(context).textTheme.headlineMedium,
       ),
     );
   }
